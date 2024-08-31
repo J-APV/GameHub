@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/jose/Downloads/g-mehub 7/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/jose/Downloads/g-mehub 7/./frontend/generated/jar-resources",
+  "staticOutput": "/Users/jose/Downloads/g-mehub 7/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/jose/Downloads/g-mehub 7/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/jose/Downloads/g-mehub 7/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/jose/Downloads/g-mehub 7/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/jose/Downloads/g-mehub 7/src/main/dev-bundle/config",
+  "jarResourcesFolder": "/Users/jose/Downloads/g-mehub 7/./frontend/generated/jar-resources",
+  "themeName": "my-app",
+  "clientServiceWorkerSource": "/Users/jose/Downloads/g-mehub 7/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

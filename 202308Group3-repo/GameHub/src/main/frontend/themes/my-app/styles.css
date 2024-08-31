@@ -1,0 +1,90 @@
+@import url('./main-layout.css');
+@import url('./views/discounts-view.css');
+@import url('./views/store-view.css');
+@import url('@fontsource/inter/index.css');    html {
+      --lumo-base-color: rgb(240, 233, 225);
+      --lumo-primary-color: rgb(37, 37, 40);
+      --lumo-primary-color-50pct: rgba(37, 37, 40, 0.5);
+      --lumo-primary-color-10pct: rgba(37, 37, 40, 0.1);
+      --lumo-body-text-color: rgb(0, 0, 0);
+      --lumo-shade: rgb(0, 0, 0);
+      --lumo-shade-5pct: rgba(0, 0, 0, 0.05);
+      --lumo-shade-10pct: rgba(0, 0, 0, 0.1);
+      --lumo-shade-20pct: rgba(0, 0, 0, 0.2);
+      --lumo-shade-30pct: rgba(0, 0, 0, 0.3);
+      --lumo-shade-40pct: rgba(0, 0, 0, 0.4);
+      --lumo-shade-50pct: rgba(0, 0, 0, 0.5);
+      --lumo-shade-60pct: rgba(0, 0, 0, 0.6);
+      --lumo-shade-70pct: rgba(0, 0, 0, 0.7);
+      --lumo-shade-80pct: rgba(0, 0, 0, 0.8);
+      --lumo-shade-90pct: rgba(0, 0, 0, 0.9);
+      --lumo-primary-text-color: rgb(229, 142, 39);
+      --lumo-size-xl: 4rem;
+      --lumo-size-l: 3rem;
+      --lumo-size-m: 2.5rem;
+      --lumo-size-s: 2rem;
+      --lumo-size-xs: 1.75rem;
+--lumo-font-family: Inter;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-body-text-color: rgb(229, 142, 39);
+      --lumo-primary-text-color: rgb(229, 142, 39);
+      --lumo-primary-color: rgb(229, 142, 39);
+      --lumo-primary-color-50pct: rgba(229, 142, 39, 0.5);
+      --lumo-primary-color-10pct: rgba(229, 142, 39, 0.1);
+      --lumo-base-color: rgb(24, 27, 30);
+      --lumo-shade: rgb(229, 142, 39);
+      --lumo-shade-5pct: rgba(229, 142, 39, 0.05);
+           --lumo-shade-10pct: rgba(229, 142, 39, 0.1);
+           --lumo-shade-20pct: rgba(229, 142, 39, 0.2);
+           --lumo-shade-30pct: rgba(229, 142, 39, 0.3);
+           --lumo-shade-40pct: rgba(229, 142, 39, 0.4);
+           --lumo-shade-50pct: rgba(229, 142, 39, 0.5);
+           --lumo-shade-60pct: rgba(229, 142, 39, 0.6);
+           --lumo-shade-70pct: rgba(229, 142, 39, 0.7);
+           --lumo-shade-80pct: rgba(229, 142, 39, 0.8);
+           --lumo-shade-90pct: rgba(229, 142, 39, 0.9);
+      --lumo-error-color: hsl(3, 13%, 26%);
+      --lumo-error-color-50pct: hsla(3, 13%, 26%, 0.5);
+      --lumo-error-color-10pct: hsla(3, 13%, 26%, 0.1);
+
+    }
+
+
+/* Add background image to layoutColumn3 */
+.layout-column3 {
+    /* Set the background image */
+    background-image: url("https://i.postimg.cc/fb3xsxsR/Perlin-Contour.png);
+
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+/* Add custom styles for the scrollbar */
+.custom-scrollbar {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: orange #F0F0F0; /* Set the thumb color to orange, and adjust the track color */
+
+    /* Add curved edges to the scrollbar track */
+    border-radius: 10px;
+}
+
+/* Define styles for WebKit browsers (e.g., Chrome, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: orange; /* Set the thumb color to orange */
+    border-radius: 10px; /* Add curved edges to the scrollbar thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(229, 142, 39, 0.1); /* Set the track color, adjust if needed */
+    border-radius: 10px; /* Add curved edges to the scrollbar track */
+}
+
+

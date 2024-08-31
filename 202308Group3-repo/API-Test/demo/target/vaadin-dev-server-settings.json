@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/./frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\nrodri170\\Project1\\202308Group3-repo\\API-Test\\demo\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\nrodri170\\Project1\\202308Group3-repo\\API-Test\\demo\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/src/main/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/nrodri170/Project1/202308Group3-repo/API-Test/demo/./frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "C:\\Users\\nrodri170\\Project1\\202308Group3-repo\\API-Test\\demo\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
